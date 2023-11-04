@@ -12,7 +12,62 @@
 <body>
 
 
-    <table border="1">
+    <form action="home.html">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+        <br/><br/>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br/><br/>
+        <label for="number">Phone Number</label>
+        <input type="number" name="number" id="number">
+        <br/><br/>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob">
+        <br/><br/>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br/><br/>
+        <label for="time">time</label>
+        <input type="time" name="time" id="time">
+        <br/><br/>
+     
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+
+        <p>Your Gender ?</p>
+        <input type="radio" id="gender_male" name="gender" value="Male">
+        <label for="gender_male">Male</label>
+      
+        <input type="radio" id="gender_female" name="gender" value="Female">
+        <label for="gender_female">Female</label> 
+
+        <p>Select Country</p>
+        <select name="country">
+            <option value="1">USA</option>
+            <option value="2">China</option>
+            <option value="3">Pak</option>
+        </select>
+        <br/>
+        <label for="file">Choose a File</label><br>
+        <input type="file" name="file" id="file">
+
+       <br/> 
+       <br/> 
+
+        <input type="button" value="nothing">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    
+
+    </form>
+
+
+    <!-- <table border="1">
         <thead>
             <tr>
                 <th colspan="3">This is our Header</th>
@@ -40,9 +95,7 @@
                 <th colspan="3">This is my Footer</th>
             </tr>
         </tfoot>
-
-
-    </table>
+    </table> -->
 
 
 </body>
